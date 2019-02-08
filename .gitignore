@@ -1,0 +1,74 @@
+### Good source:
+### https://github.com/github/gitignore
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+  
+# Java class files
+*.class
+  
+# generated files
+bin/
+gen/
+build/
+target/
+
+### Local configuration file (sdk path, etc)
+local.properties
+/local.properties
+/*/local.properties
+
+#### Eclipse project files
+.classpath
+.project
+
+### STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/sonarlint
+
+# Android Studio
+.idea
+/*/out
+/*/*/build
+build
+/*/*/production
+*.swp
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Gradle ###
+.gradle
+/captures
+.externalNativeBuild
+
+### Maven ###
+!.mvn/wrapper/maven-wrapper.jar
