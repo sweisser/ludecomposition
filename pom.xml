@@ -5,7 +5,7 @@
 
     <groupId>com.weisser</groupId>
     <artifactId>matrixops</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>com.weisser.matrixops</name>
@@ -21,7 +21,7 @@
         <developerConnection>scm:git:ssh://git@192.168.1.5:2222/git-server/repos/ludecomposition.git</developerConnection>
         <connection>https://github.com/sweisser/lup-decomposition.git</connection>
         <url>https://github.com/sweisser/lup-decomposition</url>
-      <tag>matrixops-1.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
