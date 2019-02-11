@@ -17,6 +17,12 @@
         <junit.version>4.12</junit.version>
     </properties>
 
+    <scm>
+        <developerConnection>scm:git:ssh://git@192.168.1.5:2222/git-server/repos/ludecomposition.git</developerConnection>
+        <connection>https://github.com/sweisser/lup-decomposition.git</connection>
+        <url>https://github.com/sweisser/lup-decomposition</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
@@ -62,6 +68,12 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
             </plugin>
         </plugins>
     </build>
