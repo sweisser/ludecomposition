@@ -21,7 +21,7 @@
         <developerConnection>scm:git:ssh://git@192.168.1.5:2222/git-server/repos/ludecomposition.git</developerConnection>
         <connection>https://github.com/sweisser/lup-decomposition.git</connection>
         <url>https://github.com/sweisser/lup-decomposition</url>
-      <tag>HEAD</tag>
+        <tag>HEAD</tag>
   </scm>
 
     <dependencies>
